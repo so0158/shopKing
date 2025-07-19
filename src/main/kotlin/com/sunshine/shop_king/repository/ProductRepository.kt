@@ -19,6 +19,4 @@ interface ProductRepository : JpaRepository<Product, Long> {
     fun findByStockQuantityLessThan(quantity: Int): List<Product>
     
     fun findByIsActiveAndPrice(isActive: Bool, Price: Int): List<Product>
-
-    
 }
