@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew:*)",
+      "Bash(\"/mnt/c/Program Files/Java/jdk-21/bin/java.exe\" -jar gradle/wrapper/gradle-wrapper.jar bootRun)",
+      "Bash(mkdir:*)",
+      "Bash(java:*)",
+      "Bash(ls:*)",
+      "Bash(apt list:*)",
+      "Bash(sudo apt:*)",
+      "Bash(sudo apt install:*)",
+      "Bash(export:*)",
+      "Bash(JAVA_HOME=\"/mnt/c/Program Files/Java/jdk-21\" ./gradlew bootRun)"
+    ],
+    "deny": []
+  }
+}
